@@ -202,4 +202,50 @@
 // document.write("a is"+" "+ a +"<br>", "b is"+" "+ b +"<br>");
 // document.write("Result is"+" "+(a+b));
 
-// Chapter 4,5,6,7 Exercise End here !
+// chapter 8 to 9 (Concatenating text strings & Prompt)
+
+// solved Q3
+// var userName = prompt ("Username") ;
+// document.write(userName);
+
+
+// Q4
+// Question number 4 is not available in Pdf file; 
+
+
+// Solved Q5
+// var num = prompt ('Write number');
+// if(num === ""){
+//     num=5
+// }
+// document.write("<h3>Multiplication Table:</h3> <br>");
+// document.write(num+" "+"x 1 = "+num* 1+"<br>");
+// document.write(num+" "+"x 2 = "+num* 2+"<br>");
+// document.write(num+" "+"x 3 = "+num* 3+"<br>");
+// document.write(num+" "+"x 4 = "+num* 4+"<br>");
+// document.write(num+" "+"x 5 = "+num* 5+"<br>");
+// document.write(num+" "+"x 6 = "+num* 6+"<br>");
+// document.write(num+" "+"x 7 = "+num* 7+"<br>");
+// document.write(num+" "+"x 8 = "+num* 8+"<br>");
+// document.write(num+" "+"x 9 = "+num* 9+"<br>");
+// document.write(num+" "+"x 10 = "+num* 10+"<br>");
+
+
+// Solved Q6
+// document.write("<table border='1'> ");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+// var subject1 = prompt("Enter Subject One");
+// var totalMarks = 100;
+// var marksSub1 = parseFloat(prompt("Enter Obtained Marks for " + subject1));
+// document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + marksSub1 + "</td><td>" + (marksSub1 / totalMarks * 100) + "%</td></tr>");
+// var subject2 = prompt("Enter Subject Two");
+// var marksSub2 = parseFloat(prompt("Enter Obtained Marks for " + subject2));
+// document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + marksSub2 + "</td><td>" + (marksSub2 / totalMarks * 100) + "%</td></tr>");
+// var subject3 = prompt("Enter Subject Three");
+// var marksSub3 = parseFloat(prompt("Enter Obtained Marks for " + subject3));
+// document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + marksSub3 + "</td><td>" + (marksSub3 / totalMarks * 100) + "%</td></tr>");
+// var totalObtain = marksSub1 + marksSub2 + marksSub3;
+// document.write("<tr><td>Total</td><td>300</td><td>" + totalObtain + "</td><td>" + (totalObtain / 300 * 100) + "%</td></tr>");
+// document.write("</table>");
+
+// chapter 8,9 exersice end here
