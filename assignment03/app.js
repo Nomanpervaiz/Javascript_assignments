@@ -1,5 +1,5 @@
 
-// chapter 9 to 11 (User Input And Condition Statements)
+// CHAPTER 9 to 11 (User Input And Condition Statements)
 
 // Solved Q1
 // var city = prompt ("Enter your gender");
@@ -205,5 +205,96 @@
 //     alert("Please enter right expression")
 // }
 
-// Chapter 9 to 11 End here
+// CHAPTER 9 to 11 End here...
+
+// CHAPTER 12 to 13(IF ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS)
+
+// Solved Q1
+// var num = prompt("Enter latter only (A,a,Z,z)");
+// if(num == "A"){
+//     document.write(num+"= 65");
+// }
+// else if(num == "a"){
+//     document.write(num+"= 65");
+// }
+// else if(num == "Z"){
+//     document.write(num+"= 90");
+// }
+// else if(num == "z"){
+//     document.write(num+"= 122"); 
+// }
+// else{
+//     document.write("You are entering wrong latter"); 
+// }
+
+
+// Solved Q2
+// var num1 = +prompt("Enter integer-one");
+// var num2 = +prompt("Enter integer-two");
+// if(num1 > num2){
+//     largerNum= num1 > num2 ? num1 : num2 ;
+//     document.write("larger number is"+" "+largerNum);
+// }
+// else if(num1 < num2){
+//     largerNum= num1 < num2 ? num1 : num2 ;
+//     document.write("smaller number is"+" "+largerNum);
+// }
+// else if (num1===num2){
+//     document.write("Both two integers are equal");
+// }
+// else{
+//     alert("Only Integers allowed")
+// }
+
+
+// Solved Q3
+// Skipping ...
+
+
+// Solved Q4
+// Skipping ...
+
+
+// Solved Q5
+// var password = +prompt("Please enter your password");
+// var correctPassword = 1234;
+// if (password === correctPassword){
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else {
+//     document.write("Incorrect password");
+// }
+
+
+// Solved Q6
+// var greeting;
+// var hour = prompt("Enter your hour");
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else{ 
+// greeting = "Good evening";
+// }
+// alert(greeting);
+
+
+//Solved Q7  
+// var time = prompt("Enter Your time '00:00 To 24:00+'")
+// if (time >= "00:00" && time < "12:00"){
+//     document.write("Good Morning");
+// }
+// else if (time >= "12:00" && time < "17:00"){
+//     document.write("Good Afternoon");
+// }
+// else if (time >= "17:00" && time < "21:00"){
+//     document.write("Good Evening");
+// }
+// else if (time >= "21:00" && time <= "24:00"){
+//     document.write("Good Night");
+// }
+// else {
+//     alert("Enter correct time");
+// }
+
+// CHAPTER 12 to 13 End Here
 
