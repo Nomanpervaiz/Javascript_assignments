@@ -248,7 +248,25 @@
 
 
 // Solved Q3
-// Skipping ...
+// var character = prompt("Enter character");
+// if(character==="e"){
+//     document.write("value of character is true");
+// }
+// else if(character==="o"){
+//     document.write("value of character is true");
+// }
+// else if(character==="i"){
+//     document.write("value of character is true");
+// }
+// else if(character==="u"){
+//     document.write("value of character is true");
+// }
+// else if(character==="a"){
+//     document.write("value of character is true");
+// }
+// else{
+//     document.write("value of character is false ");
+// }
 
 
 // Solved Q4
