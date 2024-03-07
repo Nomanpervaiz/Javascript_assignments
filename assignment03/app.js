@@ -248,29 +248,42 @@
 
 
 // Solved Q3
-// var character = prompt("Enter character");
-// if(character==="e"){
-//     document.write("value of character is true");
+// var num = +prompt("Enter your number"); 
+// if(num < 0 ){
+//     document.write("Your Number is negative");
 // }
-// else if(character==="o"){
-//     document.write("value of character is true");
+// else if(num > 0 ){
+//     document.write("Your Number is positive");
 // }
-// else if(character==="i"){
-//     document.write("value of character is true");
-// }
-// else if(character==="u"){
-//     document.write("value of character is true");
-// }
-// else if(character==="a"){
-//     document.write("value of character is true");
+// else if(num === 0 ){
+//     document.write("Your Number is zero");
 // }
 // else{
-//     document.write("value of character is false ");
+//     document.write("Your Number is Not valid");
 // }
 
 
 // Solved Q4
-// Skipping ...
+// var character = prompt("Enter character");
+// if(character==="e"){
+//     document.write("value of character is vowel");
+// }
+// else if(character==="o"){
+//     document.write("value of character is vowel");
+// }
+// else if(character==="i"){
+//     document.write("value of character is vowel");
+// }
+// else if(character==="u"){
+//     document.write("value of character is vowel");
+// }
+// else if(character==="a"){
+//     document.write("value of character is vowel");
+// }
+// else{
+//     document.write("Vlaue of character is not a vowel");
+// }
+
 
 
 // Solved Q5
@@ -315,4 +328,3 @@
 // }
 
 // CHAPTER 12 to 13 End Here
-
