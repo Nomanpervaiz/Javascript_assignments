@@ -81,13 +81,14 @@
 
 
 // Solved Q13
-// let userName = prompt("Enter your Name")
+// let userName = prompt("Enter your Name");
 // let flag = false;
 // for (let i = 0; i < userName.length; i++) {
 //     var charCode = userName.charCodeAt(i)
-//     flag = true
 //     if (charCode == 33 || charCode == 44 ||charCode == 46 || charCode == 64) {
+//         flag = true
 //         document.write("Please enter a valid username . Your user name contain special symbols "+ userName.charCodeAt(i))
+//         break;
 //     }
 // }
 // if(flag==false) {
