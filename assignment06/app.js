@@ -287,14 +287,14 @@
 
 
 // Solved Q6
-// let currentDate = new Date();
-// let dobMilli = new Date("january 1, 1970").getTime();
-// let resultMilli = currentDate - dobMilli
-// let convertToMilli = resultMilli / (1000*60);
-// let dobMin = new Date("january 1, 1970").getTime();
-// let resultMin = currentDate - dobMin
-// let convertToMin = resultMin / (1000 * 60 * 60)
-// document.write("Current Date: " + currentDate + "<br>" + "Elapsed millisecond since january 1,1970: " + convertToMilli + "<br>" +"Elapsed minute since january 1,1970: " + convertToMin + "<br>");
+// let currentDate = new Date('05 dec, 2015 22:32:23')
+// let passedDateSec = new Date("01 jan, 1970")
+// let minusSec = currentDate - passedDateSec
+// let convertSec = minusSec
+// let passedDateMin = new Date("01 jan, 1970")
+// let minusMin = currentDate - passedDateMin
+// let convertMin = minusMin / (1000 * 60 * 60)
+// document.write(`Current Date : ${currentDate}<br> Elapsed Milliseconds since jan 01 1970 : ${convertSec} <br>  Elapsed minutes since jan 01 1970 : ${convertMin}`)
 
 
 // Solved Q7
